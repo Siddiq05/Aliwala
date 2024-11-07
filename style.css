@@ -46,7 +46,7 @@ body {
 
 .img1 {
     height: 45vh;
-    width: 100vw;
+    width: 100%;
     object-fit: fill;
 }
 
@@ -771,7 +771,7 @@ input.form1-btn {
     .tag_con {
         border-right: outset;
         font-size: small;
-        padding-right: 35px;
+        width: 100%;
     }
 
     .tag {
@@ -788,7 +788,8 @@ input.form1-btn {
     }
 
     .tag_box img {
-        width: 13%;
+        width: 20%;
+        padding-right: 10px;
     }
 
     .tag_con h3 {
@@ -872,7 +873,7 @@ input.form1-btn {
     .deal img {
         height: 35vh;
         object-fit: fill;
-
+        width: 100%;
         padding: 0px;
     }
 
@@ -1378,6 +1379,10 @@ input.form1-btn {
     .m1 h1 {
         margin: 0;
         width: 75%;
+    }
+
+    .tag_con {
+        padding-right: 35px;
     }
 
     .tag_box img {
